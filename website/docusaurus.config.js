@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://yezhengkai.github.io',
-  baseUrl: '/yezhengkai.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
