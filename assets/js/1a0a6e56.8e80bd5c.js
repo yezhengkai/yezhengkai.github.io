@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[722],{7768:function(e){e.exports=JSON.parse('{"allTagsPath":"/yezhengkai.github.io/blog/tags","slug":"/yezhengkai.github.io/blog/tags/hola","name":"hola","count":1,"permalink":"/yezhengkai.github.io/blog/tags/hola"}')}}]);
