@@ -1,0 +1,27 @@
+# References
+# https://github.com/paularmstrong/build-tracker/tree/main/.github/workflows
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy website
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 12.x
+      - run: npm install -g yarn
+      - run: yarn install
+      - name: Build docs
+        run: yarn workspace @build-tracker/website build
+      - name: Deploy documentation
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./website/build
