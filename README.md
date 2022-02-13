@@ -8,7 +8,7 @@ npx @docusaurus/init@latest init website classic
 
 # Start Docusaurus and edit website
 ```bash
-./start_docusaurus/sh
+./start_docusaurus.sh
 ```
 
 # Theme config
@@ -43,5 +43,6 @@ module.exports = {
 - [VSCode: Create a development container](https://code.visualstudio.com/docs/remote/create-dev-container)
 - [VSCode: devcontainer command line interface](https://code.visualstudio.com/docs/remote/devcontainer-cli)
 - [VSCode: devcontainer.json reference](https://code.visualstudio.com/docs/remote/devcontainerjson-reference)
+- [GitHub: johnnyreilly/blog.johnnyreilly.com](https://github.com/johnnyreilly/blog.johnnyreilly.com)
 - [GitLab: docker-containers/docusaurus-container](https://gitlab.iotiot.in/repo-public/docker-containers/tree/master/cusaurus-container)
 - [GitHub: awesometic/docker-docusaurus](https://github.com/awesometic/docker-docusaurus)
