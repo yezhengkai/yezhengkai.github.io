@@ -1,3 +1,5 @@
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/yezhengkai/yezhengkai.github.io)
+
 # Build docker container
 Install `docker` and `remote-container` of VSCode extension.
 
