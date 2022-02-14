@@ -1,0 +1,31 @@
+<svg width="550" height="550" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_60_blur">
+   <feGaussianBlur stdDeviation="0.8" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_63_blur">
+   <feGaussianBlur stdDeviation="0.6" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_66_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+  <linearGradient y2="0" x2="1" y1="1" x1="0" id="svg_113">
+   <stop offset="0" stop-color="#00ffff"/>
+   <stop offset="1" stop-color="#ff0000"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="552" width="552" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <rect stroke="null" filter="url(#svg_60_blur)" rx="12" id="svg_60" height="545.902278" width="545.902278" y="2.520621" x="2.191069" stroke-width="1.5" fill="#00bf00"/>
+  <ellipse stroke="null" filter="url(#svg_63_blur)" ry="272.270463" rx="272.270463" id="svg_63" cy="277.402055" cx="272.93244" fill-opacity="0.8" stroke-width="1.5" fill="url(#svg_113)"/>
+  <text stroke="null" transform="matrix(2.5865704344622884,0,0,2.5865704344622884,-329.24537409236973,-310.60341299143573) " filter="url(#svg_66_blur)" opacity="0.8" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="178" id="svg_65" y="326.211999" x="205.487434" stroke-width="0" fill="#ffffff">K</text>
+  <text stroke="null" opacity="0.8" transform="matrix(2.2400357049220947,1.2932852172311444,-1.2932852172311444,2.2400357049220947,249.69999002642834,-281.2213851713967) " font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="178" id="svg_66" y="235.556845" x="22.932141" stroke-width="0" fill="#ffffff">Z</text>
+ </g>
+</svg>
