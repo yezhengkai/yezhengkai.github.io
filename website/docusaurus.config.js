@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Insights Organizer',
+  tagline: 'Record of important things',
   url: 'https://yezhengkai.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -13,6 +13,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/iconfinder-icon.svg',
   organizationName: 'yezhengkai', // Usually your GitHub org/user name.
   projectName: 'yezhengkai.github.io', // Usually your repo name.
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+      zh: {
+        label: '正體中文',
+        direction: 'ltr',
+        htmlLang: 'zh-TW',
+      },
+    },
+  },
 
   presets: [
     [
@@ -23,11 +40,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/yezhengkai/yezhengkai.github.io/edit/main/website/',
+          showLastUpdateTime: true
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 
+          editUrl:
             'https://github.com/yezhengkai/yezhengkai.github.io/edit/main/website/',
         },
         theme: {
@@ -41,19 +59,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Insights Organizer',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'My Logo',
           src: 'img/iconfinder-icon.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'data-science/julia-infra-and-tool',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Notes',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: "/blog/archive", label: "Blog Archive", position: "left" },
+          
+          { type: 'localeDropdown', position: 'right' },
           {
             href: 'https://github.com/yezhengkai',
             label: 'GitHub',
@@ -63,7 +84,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Zheng-Kai Ye. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
