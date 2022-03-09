@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[566],{6745:function(e){e.exports=JSON.parse('{"allTagsPath":"/zh-Hant/blog/tags","slug":"/zh-Hant/blog/tags/hello","name":"hello","count":1,"permalink":"/zh-Hant/blog/tags/hello"}')}}]);
