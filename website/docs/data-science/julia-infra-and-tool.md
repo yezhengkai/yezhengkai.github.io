@@ -1,9 +1,10 @@
 # Infrastructure & Tooling for Julialang ecosystem
 
-## Big picture
+## The big picture
 ![infra&tool](./img/FSDL_infra&tool.png)
-
 > Taken from **Full Stack Deep Learning Spring 2021**
+
+The figure mainly shows the infrastructure and tools used in the Python ecosystem, I will follow the same concept to collect the infrastructure and tools in the julia ecosystem.
 
 ## Data
 ### Sources
