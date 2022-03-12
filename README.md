@@ -1,23 +1,24 @@
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/yezhengkai/yezhengkai.github.io)
 
-# Icon
+## Create personal icon
 Use the [Iconfinder](https://www.iconfinder.com/) online icon editor to design your icons.
 
-# Build docker container
+## Build docker container
 Install `docker` and `remote-container` of VSCode extension.
 
-# Create website
+## Create website from template
 ```bash
 npx @docusaurus/init@latest init website classic
 ```
 
-# Start Docusaurus and edit website
+## Start Docusaurus and edit website
 ```bash
 ./start_docusaurus.sh
 ```
 
-# Theme config
+## Set docusaurus.config.js
 
+### Change default icons
 ```javascript
 module.exports = {
   ......
@@ -43,7 +44,7 @@ module.exports = {
 }
 ```
 
-# References
+## References
 - [VSCode: Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
 - [VSCode: Create a development container](https://code.visualstudio.com/docs/remote/create-dev-container)
 - [VSCode: devcontainer command line interface](https://code.visualstudio.com/docs/remote/devcontainer-cli)
