@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Data Science": {
+    "message": "資料科學",
+    "description": "The label for category Data Science in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dev Env": {
+    "message": "開發環境",
+    "description": "The label for category Dev Env in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.programing-language": {
+    "message": "程式語言",
+    "description": "The label for category programing-language in sidebar tutorialSidebar"
+  }
+}

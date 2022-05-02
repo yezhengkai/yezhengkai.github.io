@@ -85,6 +85,7 @@ See [use case](https://medium.com/analytics-vidhya/parallel-hyperparameter-tunin
 - `Flux`: framework
 - `GeometricFlux`: Geometric Deep Learning for Flux
 - `GraphNeuralNetworks`
+- `FluxArchitectures`: Complex neural network examples for Flux.jl. 
 - `Transformer`: Julia Implementation of Transformer models
 - `Metalhead`: Computer vision models for Flux
 - `MLJ`: ML framework

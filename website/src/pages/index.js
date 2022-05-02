@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import Translate, {translate} from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -17,7 +18,11 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/data-science/julia-infra-and-tool">
-            Go to Notes 📄
+            <Translate
+              id="homepage.visitNote.linkLabel"
+              description="The label for the link to my Notes">
+              Go to Notes 📄
+            </Translate>
           </Link>
         </div>
       </div>
