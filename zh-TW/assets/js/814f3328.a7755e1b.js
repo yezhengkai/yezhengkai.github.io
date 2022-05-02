@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"\u6700\u8fd1\u6587\u7ae0","items":[{"title":"\u6b61\u8fce Docusaurus v2","permalink":"/zh-TW/blog/welcome-docusaurus-v2"}]}')}}]);
