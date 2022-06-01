@@ -1,8 +1,8 @@
 # SQL
 
-SQL, Structured Query Language, is designed to allow users to `query`, `manipulate`, and `transform` data from a **relational database.
+SQL, Structured Query Language, is designed to allow users to `query`, `manipulate`, and `transform` data from a **relational database**.
 
-> :warn: There are many different SQL databases that support different features and storage types. Therefore, the SQL syntax on different databases may be slightly different.
+> ⚠️ There are many different SQL databases that support different features and storage types. Therefore, the SQL syntax on different databases may be slightly different.
 
 ## Learn resources
 - [SQLBolt](https://sqlbolt.com/)
