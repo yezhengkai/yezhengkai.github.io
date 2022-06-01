@@ -1,5 +1,6 @@
-[Python packages book](https://py-pkgs.org/)
+# Python
 
+[Python packages book](https://py-pkgs.org/)
 
 ## Release wheel to GitHub Realeases
 https://github.com/jidicula/random-standup-py/blob/main/.github/workflows/release.yml
