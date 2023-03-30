@@ -4,7 +4,7 @@ SQL, Structured Query Language, is designed to allow users to `query`, `manipula
 
 > ⚠️ There are many different SQL databases that support different features and storage types. Therefore, the SQL syntax on different databases may be slightly different.
 
-## Learn resources
+## Learning resources
 - [SQLBolt](https://sqlbolt.com/)
 
 ## References
