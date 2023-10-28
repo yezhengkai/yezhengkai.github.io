@@ -1,6 +1,6 @@
-# Infrastructure & Tooling for Julialang ecosystem
+# Infrastructure & Tooling for Julialang Ecosystem
 
-## The big picture
+## The Big Picture
 ![infra&tool](./img/FSDL_infra&tool.png)
 > Taken from **Full Stack Deep Learning Spring 2021**
 

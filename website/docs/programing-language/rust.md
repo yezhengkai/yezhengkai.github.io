@@ -1,6 +1,6 @@
 # Rust
 
-## Useful Cargo command
+## Useful Cargo Command
 - list all installed packages and their versions
 ```bash
 cargo install --list
